@@ -1,11 +1,15 @@
-http://wiki.openstreetmap.org/wiki/OSM_Map_On_Garmin
-https://openmtbmap.org/about-2/archive/create-elevation-contourline-maps/
+Based on
+[OSM Wiki information](http://wiki.openstreetmap.org/wiki/OSM_Map_On_Garmin)
+and
+[instructions for contour lines](https://openmtbmap.org/about-2/archive/create-elevation-contourline-maps/).
 
-Get planet extracts from [Geofabrik](http://download.geofabrik.de/).
-Get boundaries from http://osm2.pleiades.uni-wuppertal.de/bounds/latest/bounds.zip
-Get sea file from http://osm2.pleiades.uni-wuppertal.de/sea/latest/sea.zip
+0. Get planet extracts from [Geofabrik](http://download.geofabrik.de/).
 
-0. Required packages
+0. Get boundaries: [bounds.zip](http://osm2.pleiades.uni-wuppertal.de/bounds/latest/bounds.zip)
+
+0. Get sea file: (sea.zip](http://osm2.pleiades.uni-wuppertal.de/sea/latest/sea.zip)
+
+0. Install required packages
 
     ```
     yaourt -S splitter mkgmap
