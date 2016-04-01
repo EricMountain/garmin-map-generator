@@ -23,7 +23,7 @@ Get sea file from http://osm2.pleiades.uni-wuppertal.de/sea/latest/sea.zip
                      57.757
         -6.899                  -2.219
                      55.560
-        ```
+    ```
 
 3. Edit findtiles.py to cover the bounding box
 
