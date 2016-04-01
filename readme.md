@@ -7,7 +7,7 @@ and
 
 0. Get boundaries: [bounds.zip](http://osm2.pleiades.uni-wuppertal.de/bounds/latest/bounds.zip)
 
-0. Get sea file: (sea.zip](http://osm2.pleiades.uni-wuppertal.de/sea/latest/sea.zip)
+0. Get sea file: [sea.zip](http://osm2.pleiades.uni-wuppertal.de/sea/latest/sea.zip)
 
 0. Install required packages
 
