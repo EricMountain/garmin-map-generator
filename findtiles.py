@@ -40,9 +40,9 @@ for line in f:
         if checkBoxPartlyInsideArea(box, area):
             #print(area)
             #print(tile)
-            print('mkgmap --precomp-sea=./data/planet/sea.zip --bounds=./data/bounds.zip --max-jobs --remove-ovm-work-files --output-dir=./data/garmin ./data/osm-tiles/%s.osm.pbf' % (tile))
-            print('mono /opt/srtm2osm/Srtm2Osm.exe -bounds1 %f %f %f %f -o 5%s.osm -step 10 -cat 400 100' % (area[0], area[1], area[2], area[3], tile[1:]))
-            print('mkgmap --draw-priority=10000 --transparent --remove-ovm-work-files 5%s.osm' % (tile[1:]))
+            print('mkgmap --precomp-sea=./data/planet/sea.zip --bounds=./data/planet/bounds.zip --max-jobs --remove-ovm-work-files --output-dir=./data/garmin ./data/osm-tiles/%s.osm.pbf' % (tile))
+            print('mono /opt/srtm2osm/Srtm2Osm.exe -d ./data/srtm -bounds1 %f %f %f %f -o ./data/osm-tiles/5%s.osm -step 10 -cat 400 100' % (area[0], area[1], area[2], area[3], tile[1:]))
+            print('mkgmap --draw-priority=10000 --transparent --remove-ovm-work-files --output-dir=./data/garmin ./data/osm-tiles/5%s.osm' % (tile[1:]))
             tile = None
 
     match2 = re.match('([0-9]+): .*', line)
