@@ -12,7 +12,8 @@ and
 0. Install required packages
 
     ```
-    yaourt -S splitter mkgmap
+    pacman -S mono
+    yaourt -S splitter mkgmap srtm2osm
     ```
 
 1. Split big map file into smaller tiles:
