@@ -29,7 +29,7 @@ def checkBoxPartlyInsideArea(box, area):
 
 print(box)
 
-f = open('areas.list', 'r')
+f = open('./data/osm-tiles/areas.list', 'r')
 prevLineIsTile = False
 tile = None
 for line in f:
