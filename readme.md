@@ -18,7 +18,7 @@ and
 1. Split big map file into smaller tiles:
 
     ```
-    splitter ../../planet/europe-140130.osm.pbf
+    splitter --output-dir=./data/osm-tiles ./data/planet/europe-140130.osm.pbf
     ```
 
 2. Figure out lat/lon bounding box of the area of interest
