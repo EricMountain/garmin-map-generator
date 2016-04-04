@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
 
-# Can't remember where the original came from, possibly the defunct
-# http://touren.mospace.de/kachel.html
-
 import re
 
 # Bounding box (lat, lon, lat, lon) bottom-left - top-right
